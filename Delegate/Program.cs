@@ -15,7 +15,7 @@ namespace Delegate
             Console.WriteLine(string.Join(", ", array));
         }
 
-        //fffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+        //fff
 
         delegate bool ConditionalDelegate(int a, int b);
         static bool AscendingCondition(int a, int b)
