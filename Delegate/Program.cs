@@ -13,8 +13,9 @@ namespace Delegate
             var array = new[] { 20, 12, 942, -29, 92, -100 };
             Sort(array, AscendingCondition); //passing only name without parentheses
             Console.WriteLine(string.Join(", ", array));
-
         }
+
+        //fffeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
 
         delegate bool ConditionalDelegate(int a, int b);
         static bool AscendingCondition(int a, int b)
